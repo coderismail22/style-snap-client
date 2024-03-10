@@ -1,0 +1,801 @@
+[
+  {
+    "_id": 1,
+    "name": "T-shirt",
+    "basePrice": 700,
+    "discountPrice": 500,
+    "discountPercent": 20,
+    "size": "S",
+    "colors": [
+      "red",
+      "green",
+      "blue",
+      "yellow"
+    ],
+    "images": [
+      "https://static-01.daraz.com.bd/p/83c706d7a84db738555c9e254d311b8a.jpg_300x0q75.webp",
+      "https://static-01.daraz.com.bd/p/688e7a0a903fabcb1f482e454aef34c8.jpg_300x0q75.webp",
+      "https://static-01.daraz.com.bd/p/1ba3205f8147a7335f76fbea06731d63.jpg_300x0q75.webp",
+      "https://static-01.daraz.com.bd/p/688e7a0a903fabcb1f482e454aef34c8.jpg_300x0q75.webp",
+      "https://static-01.daraz.com.bd/p/811267e696f36b76116c5daaca9633d1.jpg_200x200q80-product.jpg_.webp"
+    ],
+    "brand": "ComfortWear",
+    "rating": 4,
+    "comment": "Classic red cotton t-shirt for a comfortable and stylish look."
+  },
+  {
+    "_id": 2,
+    "name": "Jeans",
+    "basePrice": 700,
+    "discountPrice": 500,
+    "discountPercent": 20,
+    "size": "M",
+    "colors": "Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/688e7a0a903fabcb1f482e454aef34c8.jpg_300x0q75.webp"
+    ],
+    "brand": "StyleCraft",
+    "rating": 4.0,
+    "comment": "Versatile blue cotton t-shirt with a touch of style for casual wear."
+  },
+  {
+    "_id": 3,
+    "name": "Skirt",
+    "basePrice": 700,
+    "discountPrice": 500,
+    "discountPercent": 20,
+    "size": "L",
+    "colors": "Green",
+    "images": [
+      "https://static-01.daraz.com.bd/p/1ba3205f8147a7335f76fbea06731d63.jpg_300x0q75.webp"
+    ],
+    "brand": "FashionBlend",
+    "rating": 5,
+    "comment": "Elegant green cotton t-shirt, perfect for a fashionable look."
+  },
+  {
+    "_id": 4,
+    "name": "Shirt",
+    "basePrice": 700,
+    "discountPrice": 500,
+    "discountPercent": 20,
+    "size": "XL",
+    "colors": "Black",
+    "images": [
+      "https://static-01.daraz.com.bd/p/656f83ae85b0fa91a2cc0315503ece2d.jpg_300x0q75.webp"
+    ],
+    "brand": "Essentials",
+    "rating": 4.8,
+    "comment": "Essential black cotton t-shirt for a sleek and versatile wardrobe."
+  },
+  {
+    "_id": 5,
+    "name": "Sweater",
+    "basePrice": 700,
+    "discountPrice": 500,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "White",
+    "images": [
+      "https://static-01.daraz.com.bd/p/811267e696f36b76116c5daaca9633d1.jpg_200x200q80-product.jpg_.webp"
+    ],
+    "brand": "CasualChic",
+    "rating": 3.9,
+    "comment": "Casual white cotton t-shirt for a laid-back and comfortable style."
+  },
+  {
+    "_id": 6,
+    "name": "Hoodie",
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "S",
+    "colors": "Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/7636c500b641e8fe9572d6c4ce444c1d.jpg_300x0q75.webp"
+    ],
+    "brand": "DenimStyle",
+    "rating": 4.6,
+    "comment": "Classic blue denim jeans for a timeless and casual look."
+  },
+  {
+    "_id": 7,
+    "name": "Jacket",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "M",
+    "colors": "Black",
+    "images": [
+      "https://static-01.daraz.com.bd/p/1d55a11feae4a468de97466527a3c43a.jpg_300x0q75.webp"
+    ],
+    "brand": "UrbanDenim",
+    "rating": 4.3,
+    "comment": "Urban-style black denim jeans, perfect for a sleek and modern outfit."
+  },
+  {
+    "_id": 8,
+    "name": "Coat",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "L",
+    "colors": "Gray",
+    "images": [
+      "https://static-01.daraz.com.bd/p/751127f48b6cde7cbde588c279ac510d.jpg_300x0q75.webp"
+    ],
+    "brand": "CasualDenim",
+    "rating": 4.0,
+    "comment": "Casual gray denim jeans for a comfortable and versatile wardrobe."
+  },
+  {
+    "_id": 9,
+    "name": "Blazer",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "XL",
+    "colors": "Light Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/a00559f89b20623f05e55a8f0e7d7cc9.jpg_300x0q75.webp"
+    ],
+    "brand": "SummerDenim",
+    "rating": 4.7,
+    "comment": "Light blue denim jeans for a fresh and stylish summer look."
+  },
+  {
+    "_id": 10,
+    "name": "Polo shirt",
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/4a0d925d3c02d5f180908577a49b9c80.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 11,
+    "name": "Palazzo pants",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/eecd1dcbb81b175039f2ee57b9dd562a.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 12,
+    "name": "Denim Jeans",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/4711cfd9dee153db9cc6d8838d959037.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 13,
+    "name": "Pajamas",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/c262131027b44a79d6021cc0c4998673.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 14,
+    "name": "Scarf",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/ad116c965f5d5cad29434d4f248aeb10.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 15,
+    "name": "Belt",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/40d941368c477b728ab0d32a13ba6fbb.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 16,
+    "name": "Gloves",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/c55789af6669fa5dbe32086171524028.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 17,
+    "name": "Raincoat",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/ac7b5bd7b6b756425a18bd5b708175de.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 18,
+    "name": "Flannel shirt",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/abfffbfc446f5a1c2409d9de68c37fbc.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 19,
+    "name": "Lungi",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/fd667a792cd4b9f11ada21ad0cf23ff8.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 20,
+    "name": "Jeans",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/a2072926ae61923acdff933e0d3e4aa2.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 21,
+    "name": "Panjaabi",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/448ed970fc0453701c130c8979fbf089.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 22,
+    "name": "Burkha",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/55c60b3d004eff2f826c53d15fd0680a.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 23,
+    "name": "Hijab",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/ea7db2fa459026468fe7e7c2343b315a.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 24,
+    "name": "Lehenga",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/051d8641d279318417c0771280844a27.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 25,
+    "name": "Tupi",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/e6ea8a0e0820fbac8a4aea09d3915f3f.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 26,
+    "name": "Ator",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/255a6d1035d1f1d0122d61c7468cb333.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 27,
+    "name": "Coat",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/ea7db2fa459026468fe7e7c2343b315a.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 28,
+    "name": "Saree",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/a45bc9cb32d8c63c92326086e8650b92.png_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 29,
+    "name": "Dhuti",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/7c98bac4390af0316512a8413441a160.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 30,
+    "name": "Jeans",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/28c7050dc60b72f68caad2a7ab7de964.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 31,
+    "name": "Sunglass",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/8df20bac95ce89f513539f2b75737578.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 32,
+    "name": "Shoe",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/2d8c362e360acbf13a9c34ed89872ef2.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 33,
+    "name": "Muffler",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/dc742a94bd53614aff985e6ad98c317b.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 34,
+    "name": "Denim Jeans",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/70a5ba9077956372efae08c98969635c.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 35,
+    "name": "Coat",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://bd-live-21.slatic.net/kf/Sf421db7249da4884889a973ada67c975I.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 36,
+    "name": "Shirt",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/11695c21253d6d239053a04d36aa0957.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 37,
+    "name": "Pant",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/eabacd96bf2b7425f3662e18759b581a.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 38,
+    "name": "Denim Jeans",
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/b84a680186c9857e661d122c1323ffae.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 39,
+    "name": "Kid Shirt",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/9d8afa89e3f9f77db4a4c9e899b6c390.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 40,
+    "name": "Kid Jeans",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/b84a680186c9857e661d122c1323ffae.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 41,
+    "name": "Leather Belt",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/ba622fd47a521c3b55279113307e4142.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 42,
+    "name": "Moneybag",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/797f53726f4c4a7f30cb474575a629c8.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 43,
+    "name": "Denim Jeans",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/15e5d4fa79cf2f4ec797585efd7e51df.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 44,
+    "name": "Jacket",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/c7908d0cc4dcc2500dca0a8b91aa0845.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 45,
+    "name": "Lipstick",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/8a5abe85e6417937bb1034d099c6432d.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 46,
+    "name": "Churi",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/4d090de73e9c6315bd549c7cb2d6ba29.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 47,
+    "name": "Ear Ring",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/9da5a0d8ebdd417102fd4dce859fa777.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 48,
+    "name": "Nose Pin",
+
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/2a28c51f2b398ccb2b88bd574a089b9f.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 49,
+    "name": "Denim Jeans",
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/ae8c13e0aa2e9cf7e3a580d66c33f2c5.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  },
+  {
+    "_id": 50,
+    "name": "Bracelet",
+    "discountPrice": 500,
+    "basePrice": 700,
+    "discountPercent": 20,
+    "size": "2XL",
+    "colors": "Dark Blue",
+    "images": [
+      "https://static-01.daraz.com.bd/p/3fb29805155d9e66cffe0dc3b6081dd5.jpg_300x0q75.webp"
+    ],
+    "brand": "ClassicDenim",
+    "rating": 4.5,
+    "comment": "Classic dark blue denim jeans for a sophisticated and polished appearance."
+  }
+]

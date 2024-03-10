@@ -1,0 +1,21 @@
+.react-tabs__tab {
+  width: 120px;
+  height: 60px;
+  background-color: #ffffff; /* Your desired background color */
+  color: #000000; /* Your desired text color */
+  border: 1px solid #000000; /* Border color */
+  border-radius: 100%; /* Make it circular */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out; /* Add transition for smooth effect */
+
+  /* Add more styles as needed */
+}
+
+/* Add a hover effect */
+.react-tabs__tab:hover {
+  background-color: #ff00ff; /* Your desired hover background color */
+  color: #ffffff; /* Your desired hover text color */
+}
