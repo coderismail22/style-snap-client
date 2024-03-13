@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useFilter } from "../../../context/filterContext";
 
-export const Sizes = () => {
+export const SizesFilter = () => {
   const { state, dispatch } = useFilter();
   const allSizes = ["28", "30", "32", "XL", "2XL", "3XL", "4XL"];
 

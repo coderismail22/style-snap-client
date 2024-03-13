@@ -4,23 +4,27 @@ import { useFilter } from "../../../context/filterContext";
 export const Sortby = () => {
   const { state, dispatch } = useFilter();
 
+  const sortingOptions = ["Low To High", "High To Low"];
   // Sort
   const handleSortChange = (selectedSort) => {
     console.log("sort changed", selectedSort);
     dispatch({ type: "SET_SORT", payload: selectedSort });
     // Fetch and update products based on the selected sorting option
   };
+
   return (
     <div>
-      <label>SORT BY:</label>
+      <h1>SORT BY:</h1>
       <select
+        value={state.sortby || ""}
         onChange={(e) => handleSortChange(e.target.value)}
-        value={state.sortBy || ""}
       >
-        <option value="">Default</option>
-        <option value="lowToHigh">Low to High Price</option>
-        <option value="highToLow">High to Low Price</option>
-        {/* Add more sorting options if needed */}
+        <option value="">Sort</option>
+        {sortingOptions.map((sortVal) => (
+          <option key={sortVal} value={sortVal}>
+            {sortVal}
+          </option>
+        ))}
       </select>
     </div>
   );

@@ -21,7 +21,7 @@ const filterReducer = (state, action) => {
     case "SET_SIZE":
       return { ...state, size: action.payload };
     case "SET_CUTFIT":
-      return { ...state, size: action.payload };
+      return { ...state, cutfit: action.payload };
     case "SET_BRAND":
       return { ...state, brand: action.payload };
     case "SET_FABRIC":

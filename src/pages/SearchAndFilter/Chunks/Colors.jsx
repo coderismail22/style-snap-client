@@ -3,7 +3,6 @@ import { useFilter } from "../../../context/filterContext";
 
 export const Colors = () => {
   const { state, dispatch } = useFilter();
-  // Color:
   const allColors = [
     "Red",
     "Blue",

@@ -12,13 +12,18 @@ const SearchAndFilter = () => {
     const [minPrice, maxPrice] = state.priceRange ?? [0, 1000];
     console.log("check state", state);
 
+    // Format sorting option
+    const formattedSort = state.sortby
+      ? state.sortby.replace(/\s+/g, "").toLowerCase()
+      : "";
+
     // Prepare filter parameters with default empty strings if they are null or undefined
     const filterParams = {
       fabrics: state.fabric || "",
       colors: state.color || "",
       brands: state.brand || "",
       sizes: state.size || "",
-      sortby: state.sortby || "",
+      sortby: formattedSort || "",
       cutfits: state.cutfit || "",
       pricerange: `${minPrice}-${maxPrice}`,
     };
