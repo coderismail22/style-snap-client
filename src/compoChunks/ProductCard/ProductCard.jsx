@@ -17,7 +17,7 @@ export const ProductCard = ({ product }) => {
     rating,
     comment,
   } = product;
-  console.log("i am testing", product);
+  // console.log("i am testing", product);
   const bdtSymbol = "\u09F3";
 
   const navigate = useNavigate();
