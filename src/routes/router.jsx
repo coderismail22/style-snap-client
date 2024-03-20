@@ -30,7 +30,8 @@ import { Sizes } from "../Layout/AdminDashboard/Components/Products/Sub-Menu/Siz
 import { Colors } from "../Layout/AdminDashboard/Components/Products/Sub-Menu/Colors";
 import { PrintBarcode } from "../Layout/AdminDashboard/Components/Products/Sub-Menu/PrintBarcode";
 import { Units } from "../Layout/AdminDashboard/Components/Products/Sub-Menu/Units";
-import SearchAndFilter  from "../pages/SearchAndFilter/SearchAndFilter/SearchAndFilter";
+import SearchAndFilter from "../pages/SearchAndFilter/SearchAndFilter/SearchAndFilter";
+import { DynamicCategoryPage } from "../pages/Home/CategoryWiseShopping/DynamicCategoryPage";
 
 export const router = createBrowserRouter([
   {
@@ -49,6 +50,10 @@ export const router = createBrowserRouter([
       {
         path: "/filter",
         element: <SearchAndFilter />,
+      },
+      {
+        path: "category/:category",
+        element: <DynamicCategoryPage />,
       },
     ],
   },

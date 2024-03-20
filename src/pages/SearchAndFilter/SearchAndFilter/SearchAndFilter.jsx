@@ -16,6 +16,10 @@ const SearchAndFilter = () => {
     const formattedSort = state.sortby
       ? state.sortby.replace(/\s+/g, "").toLowerCase()
       : "";
+    // Format sorting option
+    const formattedCutfits = state.cutfit
+      ? state.cutfit.replace(/\s+/g, "").toLowerCase()
+      : "";
 
     // Prepare filter parameters with default empty strings if they are null or undefined
     const filterParams = {
@@ -24,7 +28,7 @@ const SearchAndFilter = () => {
       brands: state.brand || "",
       sizes: state.size || "",
       sortby: formattedSort || "",
-      cutfits: state.cutfit || "",
+      cutfits: formattedCutfits || "",
       pricerange: `${minPrice}-${maxPrice}`,
     };
 

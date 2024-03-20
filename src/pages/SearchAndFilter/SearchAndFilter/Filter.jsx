@@ -18,6 +18,7 @@ const Filter = () => {
       <SizesFilter />
       <CutFits />
       <PriceSlider />
+      {/* TODO: Implement Category Wise Filter */}
     </div>
   );
 };
